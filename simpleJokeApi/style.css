@@ -1,0 +1,58 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body{
+    background-image: url('tellMeAjoke.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+  font-family: 'Roboto Mono', monospace;
+  font-size:45px;
+  padding:0;
+  margin-bottom:2%;
+  color: black;
+}
+input{
+  font-family: 'Roboto Mono', monospace;
+  width:14%;
+  padding:.5%;
+  margin:.2%;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  text-align: center;
+  margin-left: 3%;
+}
+button{
+  background-color: rgb(101,87,61);
+  color: white;
+  margin-left: 1%;
+  border-radius: 14px;
+  width: 8%;
+  padding: 0.5%;
+ 
+}
+
+#displayJoke{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  margin-top: 180px;
+   width: 50%;
+   text-align: start;
+}
